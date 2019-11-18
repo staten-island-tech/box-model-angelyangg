@@ -1,0 +1,32 @@
+.header{
+    height: 100vh;
+    background-color: lightpink;
+    position: relative;
+}
+.header-text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.corg {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
+}
+.moon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 70%);
+    z-index: 10;
+    transform: scale(.4);
+}
