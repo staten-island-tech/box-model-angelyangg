@@ -1,28 +1,38 @@
-.header{
+html{
+    font-size: 62.5%;
+    padding: 0 rem;
+    margin: -5rem;
+    box-sizing: 0;
+}
+.header1{
     height: 100vh;
     background-image: linear-gradient(to bottom, #cee9e9, rgb(194, 221, 194) );
 }
-.text {
+.text1 {
     text-transform: uppercase;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-    letter-spacing: 10px;
+    font-size: 2rem;
+    letter-spacing: 1rem;
     position: relative;
     top: 8%;
 }
 #dog{
     position: absolute;
-    top: 15vh;
-    left: 598px;
-    height: 70vh;
+    top: 15rem;
+    left: 60rem;
+    height: 70rem;
     z-index: 1;
-    border: solid 10px rgb(218, 102, 179); 
+    border: solid 1rem rgb(218, 102, 179); 
 }
 #paw{
     position: absolute;
-    top: -7vh;
-    left: 42vh;
+    top: -7rem;
+    left: 40rem;
     z-index: 2;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1) scale(.5);
 }
+
+/* z-index: higher number is in front */
+/* class uses period while id uses # */
