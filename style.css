@@ -1,39 +1,28 @@
 .header{
     height: 100vh;
-    background-color: lightpink; 
+    background-image: linear-gradient(to bottom, #cee9e9, rgb(194, 221, 194) );
 }
 .text {
-    position: relative;
-    background-color: white;
-    height: 90vh;
-    width: 90vw;
-    margin: 0 auto;
-    /* top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-}
-div {
     text-transform: uppercase;
-    letter-spacing: 10px;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 10px;
+    position: relative;
+    top: 8%;
 }
-#corg {
+#dog{
     position: absolute;
-    top: 95%;
-    left: 0%;
-    transform: translate(-50%, 0%);
+    top: 15vh;
+    left: 598px;
+    height: 70vh;
     z-index: 1;
-    border: solid 10px black; 
+    border: solid 10px rgb(218, 102, 179); 
 }
-#moon {
+#paw{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 70%);
+    top: -7vh;
+    left: 42vh;
     z-index: 2;
-    transform: scale(.3);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) scale(.5);
 }
-
-/* z-index: higher number is in front */
-/* class uses period while id uses # */

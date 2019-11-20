@@ -1,0 +1,39 @@
+.header{
+    height: 100vh;
+    background-color: lightpink; 
+}
+.text {
+    position: relative;
+    background-color: white;
+    height: 90vh;
+    width: 90vw;
+    margin: 0 auto;
+    /* top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+div {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#corg {
+    position: absolute;
+    top: 95%;
+    left: 0%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
+    border: solid 10px black; 
+}
+#moon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 70%);
+    z-index: 2;
+    transform: scale(.3);
+}
+
+/* z-index: higher number is in front */
+/* class uses period while id uses # */
