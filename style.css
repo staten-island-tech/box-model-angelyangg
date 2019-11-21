@@ -2,11 +2,12 @@ html{
     font-size: 62.5%;
     padding: 3rem;
     margin: -6rem;
-    box-sizing: 0;
+    box-sizing: 0rem;
 }
 .header1{
     height: 100vh;
     background-image: linear-gradient(to bottom, #cee9e9, rgb(194, 221, 194) );
+    margin-right: -5rem;
 }
 .text1 {
     text-transform: uppercase;
@@ -34,7 +35,7 @@ html{
     transform: scaleX(-1) scale(.5);
 }
 .header2{
-    height: 40vh;
+    height: 45rem;
     background-color: rgb(194, 221, 194);
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
@@ -42,10 +43,13 @@ html{
     position: relative;
     padding: 2rem;
     margin-bottom: -4rem;
+    margin-right: -5rem;
 
 }
 .button {
     background-color: rgb(218, 102, 179);
+    border-radius: 2rem;
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem black);
     color: white;
     padding: 1rem 3rem;
     text-align: center;
